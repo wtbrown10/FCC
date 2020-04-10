@@ -1,14 +1,3 @@
-// function reverseString(str) {
-
-//   for (let i = str. - 1; i > -1; i--);
-//   {
-//     myStr = myStr + str;
-//   }
-
-//   console.log(myStr);
-//   return str;
-// }
-
 // reverseString("hello");
 
 //   Reverse the provided string.
@@ -25,3 +14,11 @@ function switchShitUp(word) {
   console.log(newWord);
 }
 switchShitUp("hello");
+
+function reverseShit(str) {
+  for (i = str.length; i > 0; i--) {
+    str.split(" ", i);
+  }
+}
+
+reverseShit("hello");
