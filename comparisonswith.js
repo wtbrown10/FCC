@@ -1,8 +1,8 @@
 function factorialize(num) {
-    for (var product = 1; 0 < num; num--) {
-        product *= num
+    for (i = 1; 0 < num; num--) {
+        i *= num
     }
-    return product;
+    return i;
 }
 
 console.log(factorialize(5));
