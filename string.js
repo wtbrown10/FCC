@@ -5,6 +5,7 @@ function reverseString(str) {
   }
   let string = JSON.stringify(reverse);
   console.log(string);
+  console.log(string);
 }
 
 reverseString("hello");
